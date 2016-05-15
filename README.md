@@ -1,7 +1,7 @@
 # cpp-cr-pc
 The Clash Royale Card Probability Calculator! This project is predicted to
 take about a month to complete so be patient young one! 
-The user will enter his/her arena number, chest type, and the card wanted. 
+The user will enter his/her arena number, chest type, and the rarity of the card wanted. 
 From that, the program will give a probability of that card being pulled. 
 
 
