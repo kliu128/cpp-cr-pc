@@ -31,35 +31,39 @@ string x; //Arena
 string y; //Rarity
 
 int main(){
-  cout<<"Please select one of the following chest types by entering the cooresponding letter"<<endl;
-  cout<<a<<endl;
-  cout<<b<<endl;
-  cout<<c<<endl;
-  cout<<d<<endl;
-  cout<<e<<endl;
-  cout<<f<<endl;
-  cout<<g<<endl;
+  cout<<"Please select the arena in which your chest originates by entering the cooresponding letter"<<endl;
+  cout<<h<<endl;
+  cout<<i<<endl;
+  cout<<j<<endl;
+  cout<<k<<endl;
+  cout<<l<<endl;
+  cout<<m<<endl;
+  cout<<n<<endl;
+  cout<<o<<endl;
   cin>>z;
-    if(z=="a"){
+    if(z=="h"){
         cout<<"You picked a Wooden Chest."<<endl;
     }
-    if(z=="b"){
+    if(z=="i"){
         cout<<"You picked a Silver Chest."<<endl;
     }
-    if(z=="c"){
+    if(z=="j"){
         cout<<"You picked a Golden Chest."<<endl;
     }
-    if(z=="d"){
+    if(z=="k"){
         cout<<"You picked a Crown Chest."<<endl;
     }
-    if(z=="e"){
+    if(z=="l"){
         cout<<"You picked a Giant Chest."<<endl;
     }
-    if(z=="f"){
+    if(z=="m"){
         cout<<"You picked a Magical Chest."<<endl;
     }
-    if(z=="g"){
+    if(z=="n"){
         cout<<"You picked a Super Magical Chest."<<endl;
+    }
+    if(z=="o"){
+      cout<<"You picked Legendary Arena"
     }
     return 0;
 }
