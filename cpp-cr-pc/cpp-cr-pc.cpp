@@ -25,6 +25,9 @@ string p = "Common(a)";
 string q = "Rare(b)";
 string r = "Epic(c)";
 string s = "Legendary(d)";
+//Card numbers
+int total-cards;
+int total-cards-common;
 //User Inputs
 string z; //Chest
 string x; //Arena
@@ -41,29 +44,128 @@ int main(){
   cout<<n<<endl;
   cout<<o<<endl;
   cin>>z;
-    if(z=="h"){
-        cout<<"You picked a Wooden Chest."<<endl;
+    if(x=="h"||"H"){
+        cout<<"You picked Goblin Stadium"<<endl;
+        total-cards=18;
+        cout<<"Now please select the type of chest you have by entering the cooresponding letter"<<endl;
+        cout<<a<<endl;
+        cout<<b<<endl;
+        cout<<c<<endl;
+        cout<<d<<endl;
+        cout<<e<<endl;
+        cout<<f<<endl;
+        cout<<g<<endl;
+        cin<<z;
+    if(x=="i"||"I"){
+        cout<<"You picked Bone Pit"<<endl;
+        total-cards=24;
+        cout<<"Now please select the type of chest you have by entering the cooresponding letter"<<endl;
+        cout<<a<<endl;
+        cout<<b<<endl;
+        cout<<c<<endl;
+        cout<<d<<endl;
+        cout<<e<<endl;
+        cout<<f<<endl;
+        cout<<g<<endl;
+        cin>>z;
+          if(z=="a"||"A"){
+            cout<<"You picked a Wooden Chest"<<endl;
+          }
+          if(z=="b"||"B"){
+            cout<<"You picked a Silver Chest"<<endl;
+          }
+          if(z=="c"||"C"){
+            cout<<"You picked a Golden Chest"<<endl;
+          }
+          if(z=="d"||"D"){
+            cout<<"You picked a Crown Chest"<<endl;
+          }
+          if(z=="e"||"E"){
+            cout<<"You picked a Giant Chest"<<endl;
+          }
+          if(z=="f"||"F"){
+            cout<<"You picked a Magical Chest"<<endl;
+          }
+          if(z=="g"||"G"){
+            cout<<"You picked a Super Magical Chest"<<endl;
+          }
+    if(x=="j"||"J"){
+        cout<<"You picked Barbarian Bowl"<<endl;
+        total-cards=30;
+        cout<<"Now please select the type of chest you have by entering the cooresponding letter"<<endl;
+        cout<<a<<endl;
+        cout<<b<<endl;
+        cout<<c<<endl;
+        cout<<d<<endl;
+        cout<<e<<endl;
+        cout<<f<<endl;
+        cout<<g<<endl;
+        cin<<z;
     }
-    if(z=="i"){
-        cout<<"You picked a Silver Chest."<<endl;
+    if(x=="k"||"K"){
+        cout<<"You picked P.E.K.K.A's Playhouse"<<endl;
+        total-cards=37;
+        cout<<"Now please select the type of chest you have by entering the cooresponding letter"<<endl;
+        cout<<a<<endl;
+        cout<<b<<endl;
+        cout<<c<<endl;
+        cout<<d<<endl;
+        cout<<e<<endl;
+        cout<<f<<endl;
+        cout<<g<<endl;
+        cin<<z;
     }
-    if(z=="j"){
-        cout<<"You picked a Golden Chest."<<endl;
+    if(x=="l"||"L"){
+        cout<<"You picked Spell Valley"<<endl;
+        total-cards=44;
+        cout<<"Now please select the type of chest you have by entering the cooresponding letter"<<endl;
+        cout<<a<<endl;
+        cout<<b<<endl;
+        cout<<c<<endl;
+        cout<<d<<endl;
+        cout<<e<<endl;
+        cout<<f<<endl;
+        cout<<g<<endl;
+        cin<<z;
     }
-    if(z=="k"){
-        cout<<"You picked a Crown Chest."<<endl;
+    if(x=="m"||"M"){
+        cout<<"You picked Builder's Workshop"<<endl;
+        total-cards=49;
+        cout<<"Now please select the type of chest you have by entering the cooresponding letter"<<endl;
+        cout<<a<<endl;
+        cout<<b<<endl;
+        cout<<c<<endl;
+        cout<<d<<endl;
+        cout<<e<<endl;
+        cout<<f<<endl;
+        cout<<g<<endl;
+        cin<<z;
     }
-    if(z=="l"){
-        cout<<"You picked a Giant Chest."<<endl;
+    if(x=="n"||"N"){
+        cout<<"You picked Royal Arena"<<endl;
+        total-cards=54;
+        cout<<"Now please select the type of chest you have by entering the cooresponding letter"<<endl;
+        cout<<a<<endl;
+        cout<<b<<endl;
+        cout<<c<<endl;
+        cout<<d<<endl;
+        cout<<e<<endl;
+        cout<<f<<endl;
+        cout<<g<<endl;
+        cin<<z;
     }
-    if(z=="m"){
-        cout<<"You picked a Magical Chest."<<endl;
-    }
-    if(z=="n"){
-        cout<<"You picked a Super Magical Chest."<<endl;
-    }
-    if(z=="o"){
-      cout<<"You picked Legendary Arena"
+    if(x=="o"||"O"){
+        cout<<"You picked Legendary Arena"
+        total-cards=54;
+        cout<<"Now please select the type of chest you have by entering the cooresponding letter"<<endl;
+        cout<<a<<endl;
+        cout<<b<<endl;
+        cout<<c<<endl;
+        cout<<d<<endl;
+        cout<<e<<endl;
+        cout<<f<<endl;
+        cout<<g<<endl;
+        cin<<z;
     }
     return 0;
 }
