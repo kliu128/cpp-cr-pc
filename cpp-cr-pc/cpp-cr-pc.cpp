@@ -61,6 +61,11 @@ int main(){
 			case 'A':
 			        cout<<"You picked a Wooden Chest"<<endl;
 			        chest_cards=3;
+			        cout<<"Now please select the rarity of the card wanter by entering the corresponding letter"<<endl;
+			        cout<<p<<endl;
+			        cout<<q<<endl;
+			        cout<<r<<endl;
+			        cout<<s<<endl;
 				break;
 			case 'b':
 			case 'B':
