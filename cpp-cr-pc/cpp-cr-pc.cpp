@@ -66,6 +66,15 @@ int main(){
 			        cout<<q<<endl;
 			        cout<<r<<endl;
 			        cout<<s<<endl;
+			        cin>>y;
+			        	switch(y){
+			        		case "a":
+			        		case "A":
+			        			cout<<"You picked common"<<endl;
+			        		case "b":
+			        		case "B":
+			        			cout<<
+			        	}
 				break;
 			case 'b':
 			case 'B':
