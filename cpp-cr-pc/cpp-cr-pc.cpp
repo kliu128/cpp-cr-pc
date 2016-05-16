@@ -27,9 +27,9 @@ int total_cards;
 int total_cards_common;
 int chest_cards;
 //User Inputs
-string z; //Chest
-string x; //Arena
-string y; //Rarity
+char z; //Chest
+char x; //Arena
+char y; //Rarity
 
 int main(){
   cout<<"Please select the arena in which your chest originates by entering the corresponding letter"<<endl;
@@ -43,55 +43,66 @@ int main(){
   cout<<o<<endl;
   cin>>x;
     switch(x){
-      case "a":
-      case "A":
-      cout<<"You picked Goblin Stadium"<<endl;
-        total_cards=18;
-        cout<<"Now please select the type of chest you have by entering the corresponding letter"<<endl;
-        cout<<a<<endl;
-        cout<<b<<endl;
-        cout<<c<<endl;
-        cout<<d<<endl;
-        cout<<e<<endl;
-        cout<<f<<endl;
-        cout<<g<<endl;
-        cin>>z;
-          switch(z){
-	  case "a":
-	  case "A":
-        cout<<"You picked a Wooden Chest"<<endl;
-        chest_cards=3;
-    case "b":
-	  case "B":
-	      chest_cards=3;
-        cout<<"You picked a Silver Chest"<<endl;
-    case "c":
-    case "C":
-        chest_cards=10;
-    	cout<<"You picked a Golden Chest"<<endl;
-    case "d":
-    case "D":
-        chest_cards=20;
-    	cout<<"You picked a Crown Chest"<<endl;
-    case "e":
-    case "E":
-        chest_cards=30;
-    	  cout<<"You picked a Giant Chest"<<endl;
-    case "f":
-    case "F":
-        chest_cards=80;
-    	  cout<<"You picked a Magical Chest"<<endl;
-    case "g":
-    case "G":
-        chest_cards=180;
-    	cout<<"You picked a Super Magical Chest"<<endl;
-    default:
-    	cout<<"You did not enter a valid character"<<endl;
+      case 'a':
+      case 'A':
+	      cout<<"You picked Goblin Stadium"<<endl;
+	        total_cards=18;
+	        cout<<"Now please select the type of chest you have by entering the corresponding letter"<<endl;
+	        cout<<a<<endl;
+	        cout<<b<<endl;
+	        cout<<c<<endl;
+	        cout<<d<<endl;
+	        cout<<e<<endl;
+	        cout<<f<<endl;
+	        cout<<g<<endl;
+	        cin>>z;
+	          switch(z){
+	          	case 'a':
+			case 'A':
+			        cout<<"You picked a Wooden Chest"<<endl;
+			        chest_cards=3;
+				break;
+			case 'b':
+			case 'B':
+				chest_cards=3;
+				cout<<"You picked a Silver Chest"<<endl;
+				break;
+			case 'c':
+			case 'C':
+				chest_cards=10;
+				cout<<"You picked a Golden Chest"<<endl;
+				break;
+			case 'd':
+			case 'D':
+				chest_cards=20;
+				cout<<"You picked a Crown Chest"<<endl;
+				break;
+			case 'e':
+			case 'E':
+				chest_cards=30;
+				cout<<"You picked a Giant Chest"<<endl;
+				break;
+			case 'f':
+			case 'F':
+				chest_cards=80;
+				cout<<"You picked a Magical Chest"<<endl;
+				break;
+			case 'g':
+			case 'G':
+				chest_cards=180;
+				cout<<"You picked a Super Magical Chest"<<endl;
+				break;
+			default:
+				cout<<"You did not enter a valid character"<<endl;
+	    	}
+		break;
+		default:
+			cout << "xxx" << endl;
     	}
-    }
     
     
     //TODO: Change these to switch
+    /*
     if(x=="b"||"B"){
         cout<<"You picked Bone Pit"<<endl;
         total_cards=24;
@@ -183,6 +194,7 @@ int main(){
         cout<<g<<endl;
         cin>>z;
     }
+    */
     return 0;
 }
-
+BOSL036540OSX:~ a427658$ 
