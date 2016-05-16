@@ -1,6 +1,3 @@
-﻿#include "pch.h"
-#include "cpp-cr-pc.h"
-
 #include <iostream>
 using namespace std;
 //Chest Types
